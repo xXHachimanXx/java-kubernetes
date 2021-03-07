@@ -52,7 +52,7 @@ rm-db: stop-db
 	- docker rm mysql57
 
 k-setup:
-	minikube -p dev.to start --cpus 2 --memory=4096; \
+	minikube -p dev.to start --cpus 2 --memory=2048; \
 	minikube -p dev.to addons enable ingress; \
 	minikube -p dev.to addons enable metrics-server; \
 	kubectl create namespace dev-to
