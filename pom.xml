@@ -155,6 +155,7 @@
                     <target>15</target>
                 </configuration>
             </plugin>
+
         </plugins>
         <finalName>${project.artifactId}</finalName>
     </build>
